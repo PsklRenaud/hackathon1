@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Titre";
+    src: url('./font/The_Cramps.ttf') format("truetype");
+   }
+   @font-face {
+    font-family: "Creature";
+    src: url('./font/ToughHorror.ttf') format("truetype");
+   }
+   
+
+p{
+    font-family: 'Arial Black', Gadget, sans-serif;
+  }
+H1 , h2, h3, H4, h5, h6 {
+    font-family: "Titre", serif;
+  }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+.nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
+	text-decoration:none; 
+}
