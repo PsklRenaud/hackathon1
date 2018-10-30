@@ -1,0 +1,26 @@
+
+    <div id="logo" class="">
+            <button type="button" (click)="showMenu()"  id="burger" class="icone2 nav-a"></button>
+        </div>
+       
+    
+         <div id="bigMenu" class="font-subtitle bigMenu hidden" >
+            <div class="col-12 icone">
+            </div>
+            <div>
+                <button type="button" (click)="hideMenu()" id="menuLink" class="icone" id="icone-carte">
+                    <a routerLink="carte" class="lienNavBar nav-a" href=""><form><strong>CARTE</strong></form></a>
+                </button>
+            </div>
+            <div>
+                <button type="button" (click)="hideMenu()" id="menuLink" id="icone-bonbon" class="icone">
+                    <a routerLink="bonbon" class="lienNavBar nav-a" href=""><form><strong>BONBON</strong></form></a>
+                </button>
+            </div> 
+            <div>
+                <button type="button" (click)="hideMenu()" id="menuLink"  class="icone" id="icone-niveau">
+                    <a routerLink="niveau" class="lienNavBar nav-a text-nowrap" href=""><form><strong>NIVEAU JOUEUR</strong></form></a>
+                </button>
+            </div>
+        
+        </div> 

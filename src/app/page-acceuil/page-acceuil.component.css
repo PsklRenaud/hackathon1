@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    background-color: beige;
 }
 .Space{
     height: 5vh;
@@ -14,12 +13,11 @@
     text-align: center;
 }
 .title{
-    padding-top: 20px;
+    padding-top: 18px;
     font-family: "Titre", serif;
     font-size: 5rem;
     color: yellow;
-    text-shadow: 4px 4px orangered;
-  
+    text-shadow: 4px 4px orangered; 
 }
 .regles{
     background-color:rgb(0,0,0,0.5); 
