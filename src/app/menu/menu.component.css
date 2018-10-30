@@ -1,7 +1,7 @@
 
 #burger {
     z-index:2;
-    margin-left:35vh;
+    margin-left:25%;
     margin-top:5vh; 
     position:fixed;  
     top: 0;
@@ -16,9 +16,6 @@
     height:100vh;
     width: 35vh;
     background-image: url(./img/Frankenstein.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     padding-top: 55vh; 
 }
 /* Pour icone menu */
@@ -79,11 +76,16 @@
         left:0;
         overflow-x: hidden; /* Disable horizontal scroll */
         height: 100vh;
-        background-color: rgb(26,26,26); 
+        background-color: rgb(11,11,11);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+        padding-top: 37vh; 
     }
     .icone{
-        height: 10.5vh;
-        width: 10vh;     
+        height: 15vh;
+        width: 10vh;
+        font-size: 3rem;     
         }
     .lienNavBar {
         color: #FFD45C;
@@ -92,7 +94,11 @@
         display: inline-block;        
     }
     #burger {
-        margin-left:2vh;
-        margin-top:2vh;
+        margin-left:0vh;
+        margin-top:0vh;
+    }
+    .icone2{
+        height: 13vh;
+        width: 13vh;   
     }
 }
